@@ -1,0 +1,7 @@
+{
+  "name": "talkdeltademo",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

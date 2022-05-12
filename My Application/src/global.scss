@@ -1,0 +1,550 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import "~@ionic/angular/css/display.css";
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+.underline_txt {
+    text-decoration: underline !important;
+}
+
+.boldtext {
+    font-weight: bolder !important;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.normaltext {
+    font-weight: normal !important                                                                                                                                                                                                                                                                                                                                                                                              ;
+}
+
+.semiboldtext {
+    font-weight: 500 !important;
+}
+
+.regulartext {
+    font-weight: 400 !important;
+}
+
+.l_align {
+    text-align: left !important;
+}
+
+.c_align {
+    text-align: center !important;
+}
+
+.r_align {
+    text-align: right !important;
+}
+
+.r_float {
+    float: right !important;
+}
+
+.l_float {
+    float: left !important;
+}
+
+.xxxl_size {
+    font-size: 35px !important;
+}
+
+.xxl_size {
+    font-size: 27px !important;
+}
+
+.xl_size {
+    font-size: 22px !important;
+}
+
+.xml_size {
+    font-size: 21px !important;
+}
+
+.l_size {
+    font-size: 18px !important;
+}
+
+.m_size {
+    font-size: 16px !important;
+}
+
+.s_size {
+    font-size: 14px !important;
+}
+
+.xs_size {
+    font-size: 12px !important;
+}
+
+.xxs_size {
+    font-size: 10px !important;
+}
+
+.xxxs_size {
+    font-size: 8px !important;
+}
+
+.tborder {
+    border-top: 1px solid #d3cccc !important;
+}
+
+.rborder {
+    border-right: 1px solid #d3cccc !important;
+}
+
+.lborder {
+    border-left: 1px solid #d3cccc !important;
+}
+
+.bborder {
+    border-bottom: 1px solid #d3cccc !important;
+}
+
+.nopadding {
+    padding: 0px !important;
+}
+
+.tb0padding {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.lr0padding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.t0padding {
+    padding-top: 0px !important;
+}
+
+.b0padding {
+    padding-bottom: 0px !important;
+}
+
+.l0padding {
+    padding-left: 0px !important;
+}
+
+.r0padding {
+    padding-right: 0px !important;
+}
+
+.t2padding {
+    padding-top: 2px !important;
+}
+
+.b2padding {
+    padding-bottom: 2px !important;
+}
+
+.r2padding {
+    padding-right: 2px !important;
+}
+
+.l2padding {
+    padding-left: 2px !important;
+}
+
+.t5padding {
+    padding-top: 5px !important;
+}
+
+.b5padding {
+    padding-bottom: 5px !important;
+}
+
+.l5padding {
+    padding-left: 5px !important;
+}
+
+.r5padding {
+    padding-right: 5px !important;
+}
+
+.t10padding {
+    padding-top: 10px !important;
+}
+
+.b10padding {
+    padding-bottom: 10px !important;
+}
+
+.l10padding {
+    padding-left: 10px !important;
+}
+
+.r10padding {
+    padding-right: 10px !important;
+}
+
+.t15padding {
+    padding-top: 15px !important;
+}
+
+.b15padding {
+    padding-bottom: 15px !important;
+}
+
+.l15padding {
+    padding-left: 15px !important;
+}
+
+.r15padding {
+    padding-right: 15px !important;
+}
+
+.t20padding {
+    padding-top: 20px !important;
+}
+
+.r20padding {
+    padding-right: 20px !important;
+}
+
+.b20padding {
+    padding-bottom: 20px !important;
+}
+
+.l20padding {
+    padding-left: 20px !important;
+}
+
+.t30padding {
+    padding-top: 30px !important;
+}
+
+.r30padding {
+    padding-right: 30px !important;
+}
+
+.b30padding {
+    padding-bottom: 30px !important;
+}
+
+.l30padding {
+    padding-left: 30px !important;
+}
+
+.r30padding {
+    padding-right: 30px !important;
+}
+
+.t0margin {
+    margin-top: 0px !important;
+}
+
+.b0margin {
+    margin-bottom: 0px !important;
+}
+
+.l0margin {
+    margin-left: 0px !important;
+}
+
+.r0margin {
+    margin-right: 0px !important;
+}
+
+.t2margin {
+    margin-top: 2px !important;
+}
+
+.b2margin {
+    margin-bottom: 2px !important;
+}
+
+.l2margin {
+    margin-left: 2px !important;
+}
+
+.r2margin {
+    margin-right: px !important;
+}
+
+.t5margin {
+    margin-top: 5px !important;
+}
+
+.b5margin {
+    margin-bottom: 5px !important;
+}
+
+.l5margin {
+    margin-left: 5px !important;
+}
+
+.r5margin {
+    margin-right: 5px !important;
+}
+
+.t10margin {
+    margin-top: 10px !important;
+}
+
+.b10margin {
+    margin-bottom: 10px !important;
+}
+
+.l10margin {
+    margin-left: 10px !important;
+}
+
+.r10margin {
+    margin-right: 10px !important;
+}
+
+.t15margin {
+    margin-top: 15px !important;
+}
+
+.b15margin {
+    margin-bottom: 15px !important;
+}
+
+.l15margin {
+    margin-left: 15px !important;
+}
+
+.r15margin {
+    margin-right: 15px !important;
+}
+.b60margin {
+    margin-bottom: 60px !important;
+}
+.t60margin {
+    margin-top: 60px !important;
+}
+
+.black_txt {
+    color: #38393d !important;
+}
+
+.profit {
+    color: #46ab5c !important;
+}
+
+.loss {
+    color: #ff385a !important ;
+}
+
+.orange_txt {
+    color: #cc5c12 !important;
+}
+
+.Green_txt {
+    color: #00b04f !important;
+}
+
+.yellow_txt {
+    color: #dfc800 !important;
+}
+
+.blue_txt {
+    color: #00aff0 !important;
+}
+
+.Height100 {
+    height: 100% !important;
+}
+
+.purple_background {
+    background-color: #474a8b73 !important;
+}
+
+.loss_background {
+    background-color: #ff330061 !important;
+}
+
+.gray_background {
+    background-color: #f2f2f2 !important;
+    --background: #f2f2f2 !important;
+}
+
+.white_background {
+    background-color: #fff !important;
+}
+
+.green_background {
+    background-color: #e2f0d9 !important;
+}
+
+.yellow_background {
+    background-color: #fff8bb !important;
+}
+
+.orange_background {
+    background-color: #fbe5d6 !important;
+}
+
+.litePurple_background {
+    background-color: #e0ddf3 !important;
+}
+
+.darkred_background {
+    background-color: #ff3300 !important;
+}
+
+.darkyellow_background {
+    background-color: #ec8a1a !important;
+}
+
+.tran_background {
+    background-color: transparent !important;
+}
+
+.gray_txt {
+    color: gray !important;
+}
+
+.white_txt {
+    color: #fff !important;
+}
+
+.blue_txt {
+    color: #4183f5 !important;
+}
+
+.purple_txt {
+    color: #474a8b !important;
+}
+
+.litePurplr_txt {
+    color: #e0ddf3;
+}
+
+.header-md::after,
+.header-ios::after {
+    background-image: none !important;
+}
+
+.border5R {
+    border-radius: 5px;
+}
+
+.red_button {
+    --background: #ff385a !important;
+}
+
+.noshadow {
+    --box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.min100width {
+    min-width: 100% !important;
+}
+
+.min100height {
+    min-height: 100% !important;
+}
+
+.vc_align {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.vlc_align {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.swiper-slide {
+    text-align: start !important;
+}
+
+.swiper-pagination-bullets {
+    bottom: 60px !important;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #ff385a;
+    height: 8px !important;
+    width: 8px !important;
+    margin-bottom: 0px !important;
+}
+
+.swiper-pagination-bullet {
+    height: 4px;
+    width: 4px;
+    opacity: 1 !important;
+    margin: 0 4px 2px 4px !important;
+}
+
+ion-tab-bar {
+    height: 46px !important;
+}
+
+.roundedbtn {
+    border-radius: 50% !important;
+    --border-radius: 50% !important;
+}
+
+ion-slides {
+    height: 100%;
+    .swiper-slide {
+        align-items: start !important;
+        overflow: scroll !important;
+    }
+}
+
+ion-modal.Loginregistration {
+    --height: 70% !important;
+    align-items: end !important;
+}
+
+ion-modal.Loginregistration1 {
+    --height: 30% !important;
+    align-items: end !important;
+}
+
+.errortoast {
+    --width: max-content;
+    --background: #ff385a !important;
+    --max-width: 80% !important;
+    --max-height: 50px !important;
+}
+
+ion-input.otpinput input {
+    padding: 2px 5px !important;
+    text-align: center !important;
+    color: #ff385a !important;
+    font-weight: bolder !important;
+}
+
+ion-content,
+ion-header,
+ion-footer,
+ion-card,
+ion-item,
+ion-list {
+    --background: #fff !important;
+    --color: #000 !important;
+    background: #fff !important;
+    color: #000 !important;
+}

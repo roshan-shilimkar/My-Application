@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "70607048859",
+    "firebase_url": "https://talkdeltaapp.firebaseio.com",
+    "project_id": "talkdeltaapp",
+    "storage_bucket": "talkdeltaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70607048859:android:d5d4f831645b312f",
+        "android_client_info": {
+          "package_name": "com.algoiq.talkdelta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70607048859-htde7qsjvc34mnaia8chb47po9te0tl3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsfAph8PJRZI3KElqIWbAr48Mh22N9k3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70607048859-htde7qsjvc34mnaia8chb47po9te0tl3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

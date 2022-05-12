@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar class="white_txt">
+    <ion-title slot="start" class="m_size l0padding">Home page</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="gray_background">
+  <ion-grid class="gray_txt">
+    <ion-row>
+      <ion-col >
+        Your Mobile Number is <span class="boldtext">{{globalfunc.mobileno}}</span>.
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        Your Email ID is <span class="boldtext">{{globalfunc.emailid}}</span>.
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        Your Latitude is {{latitude}} and Longitude is {{longitude}}.
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

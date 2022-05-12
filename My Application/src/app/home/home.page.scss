@@ -1,0 +1,88 @@
+// .h_color{
+//   --background: rgba(192, 14, 14, 0.849) !important;
+//   color: azure;
+// }
+// .clr{
+//   color: azure;
+// }
+// .radius_border{
+//   border-radius: 4px !important;
+// }
+
+// .margin{
+//   margin-top: -15px;
+// }
+// .background{
+//   --background: rgb(233, 229, 229) !important;
+// }
+// .container{
+// overflow-x: scroll!important;
+// overflow-y: hidden;
+
+// }
+// .sc{
+//   min-width: 200%;
+// }
+
+// .row_border{
+//   border-bottom: 2px solid rgb(170, 168, 168);
+// }
+// .paidbtn{
+//   border-radius: 15px;
+//   width: 45px;
+//   height:15px;
+//   background-color: rgb(211, 50, 71);
+
+// }
+// .bgcolor{
+//   background-color: rgb(255, 255, 255);
+//   border-radius: 2px;
+// }
+// .whatspsharebtn{
+// height: auto;
+// width: 150px;
+// padding: 0px;
+// text-transform: none;
+// }
+// .colborder{
+//   border-right: 1px solid grey;
+//  height: 25px;
+
+// }
+
+// .badge{
+//   border-radius: 50px;
+//   width: 70px;
+//  font-weight: lighter;
+//   margin-top: 5px;
+//   margin-right: 15px;
+
+// }
+
+// .fixed{
+//   position: sticky;
+// }
+
+// .text{
+//   font-weight: lighter;
+// }
+
+.overflow {
+    overflow: scroll;
+    .overflowrow {
+        max-width: 200%;
+    }
+}
+
+ion-slides{
+    height: 160px !important;
+    ion-slide{
+        width: 100% !important;
+    }
+}
+
+ion-badge {
+    border-radius: 10px;
+    font-size: 8px;
+    background-color: #ffffff73;
+  }

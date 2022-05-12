@@ -1,0 +1,154 @@
+<ion-content>
+  <ion-slides #pageSlider1 pager="true" class="contentslide">
+    <ion-slide>
+      <ion-grid class="c_align">
+        <ion-row>
+          <ion-col></ion-col>
+          <ion-col size="auto" class="boldtext xxl_size">
+            <span class="loss">My</span> <span class="orange_txt l5padding">Appli</span><span
+              class="blue_txt">cation</span>
+          </ion-col>
+          <ion-col></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="boldtext">
+            Welcome to My Application
+          </ion-col>
+        </ion-row>
+        <ion-row class="gray_txt">
+          <ion-col class="xs_size">
+            Lorem Ipsum is simply dummy text of the printing.
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-slide>
+    <ion-slide>
+      <ion-grid class="c_align">
+        <ion-row>
+          <ion-col></ion-col>
+          <ion-col size="auto" class="boldtext xxl_size">
+            <span class="loss">My</span> <span class="orange_txt l5padding">Appli</span><span
+              class="blue_txt">cation</span>
+          </ion-col>
+          <ion-col></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="boldtext">
+            Welcome to My Application
+          </ion-col>
+        </ion-row>
+        <ion-row class="gray_txt">
+          <ion-col class="xs_size">
+            Lorem Ipsum is simply dummy text of the printing.
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-slide>
+    <ion-slide>
+      <ion-grid class="c_align">
+        <ion-row>
+          <ion-col></ion-col>
+          <ion-col size="auto" class="boldtext xxl_size">
+            <span class="loss">My</span> <span class="orange_txt l5padding">Appli</span><span
+              class="blue_txt">cation</span>
+          </ion-col>
+          <ion-col></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="boldtext">
+            Welcome to My Application
+          </ion-col>
+        </ion-row>
+        <ion-row class="gray_txt">
+          <ion-col class="xs_size">
+            Lorem Ipsum is simply dummy text of the printing.
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-slide>
+  </ion-slides>
+</ion-content>
+<ion-footer class="ion-padding">
+  <ion-slides #pageSlider>
+    <ion-slide>
+      <ion-grid>
+        <ion-row>
+          <ion-col class="boldtext l_size">
+            Login or Signin
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="xs_size t15margin gray_txt">
+            Please enter your mobile number.
+          </ion-col>
+        </ion-row>
+        <ion-row class="t5margin b10margin tborder lborder rborder bborder r5margin l5margin border5R">
+          <ion-col class="rborder vlc_align s_size boldtext" size="2">+ 91</ion-col>
+          <ion-col class="tb0padding">
+            <ion-input [(ngModel)]="MobileNo" placeholder="Mobile Number" inputmode="numeric" maxlength="10"
+              class="s_size boldtext">
+            </ion-input>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="xs_size gray_txt" *ngIf="otpgenerated==true">
+            Please enter OTP
+          </ion-col>
+        </ion-row>
+        <ion-row class="b5margin tborder lborder rborder bborder r5margin l5margin border5R" *ngIf="otpgenerated==true">
+          <ion-col class="tb0padding">
+            <ion-input type="{{type}}" [(ngModel)]="OTP" placeholder="Password" maxlength="6" class="s_size boldtext">
+            </ion-input>
+          </ion-col>
+          <ion-col size="auto" class="vlc_align l10padding r10padding lborder">
+            <ion-icon [name]="showotp==true ? 'lock-open-outline':'lock-closed-outline'" (click)="showPassword()"
+              class="l_size loss">
+            </ion-icon>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="b10padding">
+            <ion-button expand="block" class="xs_size boldtext red_button l0margin r0margin" (click)="submit()">
+              <span class="t2padding" *ngIf="otpgenerated==false">
+                Get OTP
+              </span>
+              <span class="t2padding" *ngIf="otpgenerated==true">
+                Verify OTP
+              </span>
+            </ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-slide>
+    <ion-slide>
+      <ion-grid>
+        <ion-row>
+          <ion-col class="boldtext l_size">
+            Login or Signin
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="xs_size t15margin gray_txt">
+            Please enter your Email ID.
+          </ion-col>
+        </ion-row>
+        <ion-row class="t5margin b10margin tborder lborder rborder bborder r5margin l5margin border5R">
+          <ion-col class="tb0padding">
+            <ion-input [(ngModel)]="emailid" placeholder="Email ID" inputmode="text" maxlength="30"
+              class="s_size boldtext">
+            </ion-input>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="b10padding">
+            <ion-button expand="block" class="xs_size boldtext red_button l0margin r0margin" (click)="checkemailid()">
+              <span class="t2padding">
+                Submit Email ID
+              </span>
+            </ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-slide>
+  </ion-slides>
+</ion-footer>
